@@ -23,8 +23,7 @@ body{
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 	font-family: 'Roboto', sans-serif;
-	background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8);
-	color: transparent;
+	color: #ed4264a8;
 	-webkit-background-clip: text;
 }
 
@@ -51,17 +50,7 @@ body{
 	opacity: 0.6;
 }
 
-.author{
-	margin:10px;
-	font-size:20px;
-	transition: 0.5s;
-	transition-timing-function: ease-in;
-	font-family: 'Open Sans Condensed', sans-serif;
-	background-image: linear-gradient(to right bottom, #28313B,#485461
-	);
-	color: transparent;
-	-webkit-background-clip: text;
-}
+
 	
 	
 p{
@@ -99,4 +88,10 @@ transform: rotateY(-180deg);
 
 .rotateB{
 transform: rotateY(0deg);
+}
+
+.btn{
+	display: block;
+	width:50%;
+	margin:0 auto
 }
